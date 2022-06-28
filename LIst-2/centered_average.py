@@ -12,6 +12,7 @@ def centered_average(nums):
       cmn += 1
       if cmn > 1:
         l.append(i)
+    # remove one of the maximums
     elif i == mx:
       cmx += 1
       if cmx > 1:
